@@ -1,0 +1,4 @@
+- source: project
+  netlify:
+    - id: 362fbad2-5423-485d-8ac1-29583a8faf6e
+      url: 'https://thriving-bombolone-9becbe.netlify.app'

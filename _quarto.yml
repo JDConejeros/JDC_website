@@ -88,7 +88,8 @@ format:
       body-width: 1200px
       margin-width: 300px
 
-freeze: true
+execute:
+  freeze: auto
 
 editor: visual
 

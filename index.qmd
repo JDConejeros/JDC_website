@@ -8,18 +8,15 @@ about:
  image-shape: round
 ---
 
-{{< include _carousel_principal.qmd >}}  
+{{< include _carousel_principal.qmd >}} 
 {{< include _animated_text.qmd >}}
 
 <br>
 
 ::: feature-bottom
-[Publicaciones](research.qmd){.btn .btn-secondary role="button"} 
-[Blog](blog.qmd){.btn .btn-secondary role="button"}
-[Contacto](contacto.qmd){.btn .btn-secondary role="button"}
+[Publicaciones](research.qmd){.btn .btn-secondary role="button"} [Blog](blog.qmd){.btn .btn-secondary role="button"} [Contacto](contacto.qmd){.btn .btn-secondary role="button"}
 :::
 
 ::: feature-bottom
-[ES - CV](CV/CV_ES_acad_Ene2023.pdf){.btn .btn-secondary role="button"} 
-[EN - CV](CV/CV_EN_acad_Ene2023.pdf){.btn .btn-secondary role="button"} 
+[ES - CV](CV/CV_ES_acad_Ene2023.pdf){.btn .btn-secondary role="button"} [EN - CV](CV/CV_EN_acad_Ene2023.pdf){.btn .btn-secondary role="button"}
 :::
