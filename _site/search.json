@@ -1,0 +1,107 @@
+[
+  {
+    "objectID": "talks.html",
+    "href": "talks.html",
+    "title": "Talks",
+    "section": "",
+    "text": "En construcción"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "José Daniel Conejeros",
+    "section": "",
+    "text": "Publicaciones Blog Contacto CV ES CV EN"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "carousel.html",
+    "href": "carousel.html",
+    "title": "José Daniel Conejeros",
+    "section": "",
+    "text": "{% block carousel %}\n\n  \n    {% for item in items %}\n    \n      \n    \n    {% endfor %}\n  \n  \n    \n    Previous\n  \n  \n    \n    Next\n  \n\n{% endblock %}"
+  },
+  {
+    "objectID": "index.html#hola",
+    "href": "index.html#hola",
+    "title": "Bienvenido",
+    "section": "Hola",
+    "text": "Hola"
+  },
+  {
+    "objectID": "index.html#josé-daniel-conejeros",
+    "href": "index.html#josé-daniel-conejeros",
+    "title": "José Daniel Conejeros",
+    "section": "José Daniel Conejeros",
+    "text": "José Daniel Conejeros"
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Investigación",
+    "section": "",
+    "text": "Página en construcción"
+  },
+  {
+    "objectID": "teach.html",
+    "href": "teach.html",
+    "title": "Docencia",
+    "section": "",
+    "text": "Página en construcción"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Proyectos",
+    "section": "",
+    "text": "Página en construcción"
+  },
+  {
+    "objectID": "dataviz.html",
+    "href": "dataviz.html",
+    "title": "DataViz",
+    "section": "",
+    "text": "Página en construcción"
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Página en construcción"
+  },
+  {
+    "objectID": "licence.html",
+    "href": "licence.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "coffe.html",
+    "href": "coffe.html",
+    "title": "Donaciones",
+    "section": "",
+    "text": "Página en construcción"
+  },
+  {
+    "objectID": "license.html",
+    "href": "license.html",
+    "title": "Licencia",
+    "section": "",
+    "text": "Página en construcción"
+  },
+  {
+    "objectID": "respaldo_codigos_html.html",
+    "href": "respaldo_codigos_html.html",
+    "title": "José Daniel Conejeros",
+    "section": "",
+    "text": "Texto en el centro\n      \n    \n    \n      \n        Texto en el centro\n      \n    \n    \n      \n        Texto en el centro\n      \n    \n  \n  \n    \n    Previous\n  \n  \n    \n    Next\n  \n\n\n\n\n  \n    \n      \n    \n    \n      \n    \n    \n      \n    \n  \n  \n    \n    Previous\n  \n  \n    \n    Next\n  \n\n\n\n\n  \n    \n      \n        \n          Texto en el centro\n        \n      \n      \n        \n          Texto en el centro\n        \n      \n      \n        \n          Texto en el centro\n        \n      \n    \n  \n  \n    \n    Previous\n  \n  \n    \n    Next\n  \n\n\n\n\n  \n    \n      \n        \n        \n          Texto en el centro\n        \n      \n      \n        \n        \n          Texto en el centro\n        \n      \n      \n        \n        \n          Texto en el centro\n        \n      \n    \n  \n  \n    \n    Previous\n  \n  \n    \n    Next\n  \n\n\n\n\n\n\n  \n    \n      \n        \n      \n      \n        \n      \n      \n        \n      \n    \n  \n  \n    \n    Previous\n  \n  \n    \n    Next\n  \n\n\n\n```{=html}\n\n\n  \n    EN\n    ES\n  \n\n\n\n\n.navbar-dropdown a {\n  color: #333;\n}\n\n.navbar-dropdown a:hover {\n  color: #3273dc;\n  background-color: #f5f5f5;\n}\n\n.navbar-link:hover {\n  color: #3273dc;\n}\n\n.navbar-dropdown {\n  border: none;\n  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);\n}\n\n\n\n```"
+  }
+]
