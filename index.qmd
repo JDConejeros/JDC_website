@@ -20,6 +20,6 @@ about:
 :::
 
 ::: feature-bottom
-[ES - CV](CV/CV_SP_acad_Ene2023.pdf){.btn .btn-secondary role="button"} 
+[ES - CV](CV/CV_ES_acad_Ene2023.pdf){.btn .btn-secondary role="button"} 
 [EN - CV](CV/CV_EN_acad_Ene2023.pdf){.btn .btn-secondary role="button"} 
 :::
