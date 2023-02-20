@@ -1,11 +1,24 @@
 ---
-title: "JDC_website"
+title: "José Daniel Conejeros"
+subtitle: "MSc© en Sociología y Estadística PUC"
+image: "images/JConejeros.jpg"
+about:
+ template: jolla
+ image-width: 15em
+ image-shape: round
 ---
 
-This is a Quarto website.
+{{< include _carousel_principal.qmd >}}  
+{{< include _animated_text.qmd >}}
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+<br>
 
-```{r}
-1 + 1
-```
+::: feature-bottom
+[Publicaciones](research.qmd){.btn .btn-secondary role="button"} 
+[Blog](blog.qmd){.btn .btn-secondary role="button"}
+[Contacto](mailto:jdconejeros@uc.cl){.btn .btn-secondary role="button"}
+[CV ES](CV/CV_Spanish_acad_Ene2023.pdf){.btn .btn-secondary role="button"} 
+[CV EN](research.qmd){.btn .btn-secondary role="button"} 
+:::
+
+
