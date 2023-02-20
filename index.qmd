@@ -17,8 +17,9 @@ about:
 [Publicaciones](research.qmd){.btn .btn-secondary role="button"} 
 [Blog](blog.qmd){.btn .btn-secondary role="button"}
 [Contacto](mailto:jdconejeros@uc.cl){.btn .btn-secondary role="button"}
-[CV ES](CV/CV_Spanish_acad_Ene2023.pdf){.btn .btn-secondary role="button"} 
-[CV EN](research.qmd){.btn .btn-secondary role="button"} 
 :::
 
-
+::: feature-bottom
+[ES - CV](CV/CV_Spanish_acad_Ene2023.pdf){.btn .btn-secondary role="button"} 
+[EN - CV](research.qmd){.btn .btn-secondary role="button"} 
+:::

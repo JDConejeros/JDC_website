@@ -64,7 +64,7 @@ website:
     left: |
       {{< fa brands creative-commons >}} 2023, José Daniel Conejeros {{< fa emoji face-glasses >}}
     center: |
-      [Licencia](license.qmd) - ¿Me donas un [café {{< fa mug-hot >}}](https://www.google.cl)? <br> 
+      [Licencia](licenses.qmd) - ¿Me donas un [café {{< fa mug-hot >}}](https://www.google.cl)? <br> 
       [![](images/fgch.png){fig-alt="https://galgos.donando.cl/" fig-align="center" width="25"}](https://galgos.donando.cl/) [Dona a la fundación Galgos Chile](https://galgos.donando.cl/)
     right: |
       Hecho con {{< fa brands r-project >}}, [Quarto](https://quarto.org) y [ChatGPT](https://openai.com/api/) <br>
