@@ -1,0 +1,14 @@
+{
+  "hash": "50fbad9d88723b7c595d16b5ae5bfc60",
+  "result": {
+    "markdown": "---\ntitle: \"José Daniel Conejeros\"\nsubtitle: |\n  | MSc© en Sociología y Estadística PUC\n#   | [{{< fa envelope size=Huge >}}](jdconejeros@uc.cl)\nimage: \"images/JConejeros.jpg\"\nabout:\n template: jolla\n image-width: 15em\n image-shape: round\n---\n```{=html}\n<div style=\"position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: -1;\">\n  <div id=\"carouselExampleControls\" class=\"carousel slide\" data-bs-ride=\"carousel\" style=\"height: 100%; width: 100%;\">\n    <div class=\"carousel-inner\" style=\"height: 100%;\">\n      <div class=\"carousel-item active\" style=\"height: 100%;\">\n        <img src=\"images/fondo-galaxia-espacial.jpg\" style=\"width:100%; height:100%; object-fit: cover; filter: brightness(0.6); opacity: 0.6;\">\n      </div>\n      <div class=\"carousel-item\" style=\"height: 100%;\">\n        <img src=\"images/12_Bajas_tropas_Crimea.jpeg\" style=\"width:100%; height:110%; object-fit: cover; filter: brightness(0.6); opacity: 0.6;\">\n      </div>\n      <div class=\"carousel-item\" style=\"height: 100%;\">\n        <img src=\"images/0123-sci-subILLO.jpeg\" style=\"width:100%; height:100%; object-fit: cover; filter: brightness(0.6); opacity: 0.6;\">\n      </div>\n    </div>\n  </div>\n</div>\n```\n\n```{=html}\n<head>\n  <style>\n  .cd-headline {\n    font-size: 36px;\n  }\n  </style>\n  \n  <!-- Agregar jQuery -->\n  <script src=\"https://code.jquery.com/jquery-3.6.0.min.js\"></script>\n\n  <!-- Agregar Typed.js -->\n  <script src=\"https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js\"></script>\n\n  <script>\n    $(document).ready(function() {\n      var options = {\n        strings: [\"¡Bienvenida/o a mi sitio web!\", \n        \"Investigación y docencia universitaria\",\n        \"Vulnerabilidades sociales\",\n        \"Salud pública\",\n        \"Lenguajes de programación\",\n        \"Visualización de datos\",\n        \"Métodos estadísticos\"],\n        typeSpeed: 30,\n        backSpeed: 5,\n        backDelay: 1000,\n        loop: true\n      };\n      var typed = new Typed('.cd-headline .cd-words-wrapper', options);\n    });\n  </script>\n  \n</head>\n\n<div class=\"cd-headline clip\">\n  <span class=\"cd-words-wrapper\"></span>\n</div>\n\n\n\n```\n\n\n\n<br>\n\n::: feature-bottom\n[Publicaciones](research.qmd){.btn .btn-secondary role=\"button\"} [Blog](blog.qmd){.btn .btn-secondary role=\"button\"} [CV](research.qmd){.btn .btn-secondary role=\"button\"} [Contacto](jdconejeros@uc.cl){.btn .btn-secondary role=\"button\"}\n:::\n\n\n\n::: {.cell}\n\n:::",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

@@ -2,18 +2,95 @@ project:
   type: website
 
 website:
-  title: "JDC_website"
+  #reader-mode: true
+  title: "José Daniel Conejeros"
+  description: "JDC sitio web personal"
+  #image: 
+  favicon: "images/logo_web.png"
+  # google-analytics: "G-FV9Z7SDZ0M"
+  open-graph: true
+  twitter-card:
+    creator: "@Jose_Conejeros"
+  #site-url: https://quarto.org
+  repo-url: https://github.com/JDConejeros/JDC_website
+  repo-actions: [edit, issue]
+  page-navigation: true
+  search:
+    type: overlay
+    # algolia:
+    #   index-name: prod_QUARTO
+    #   application-id: ZPJB5I1QN7
+    #   search-only-api-key: 41be6c1e0a7fea4a51b107810facf577
+    #   analytics-events: true
+    #   show-logo: true
   navbar:
+    background: none # dark
+    #logo: "images/logo_jdc3.png" 
+    #logo-alt: "Logo JDC"
+    title: false
+    search: true
+    collapse-below: lg
     left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
+      - text: "¡BOOM! {{< fa meteor >}}"
+        href: index.qmd
+      - text: "{{< fa magnifying-glass-plus >}} Investigación"
+        href: research.qmd
+      - text: "{{< fa paperclip >}} Docencia"
+        href: teach.qmd
+      - text: "{{< fa cubes >}} Proyectos"
+        href: projects.qmd
+      - text: "{{< fa layer-group >}} DataViz"
+        href: dataviz.qmd
+      - text: "{{< fa code >}}  Blog"
+        href: blog.qmd
+    right:
+      - text: "{{< fa envelope >}}"
+        href: mailto:jdconejeros@uc.cl
+      - text: "{{< fa brands orcid >}}"
+        href: https://www.researchgate.net/
+      - text: "{{< fa brands researchgate >}}"
+        href: https://www.researchgate.net/
+      - icon: slack
+        href: https://join.slack.com/t/uc-6q16134/shared_invite/zt-1pf6qv46v-T6RsbvIsbwQAOoQ1rI3B7g
+      - icon: github
+        href: https://github.com/JDConejeros
+      - icon: bug
+        href: https://github.com/JDConejeros/JDC_website/issues
+      - icon: twitter
+        href: https://twitter.com/Jose_Conejeros
+      - icon: linkedin
+        href: https://www.linkedin.com/in/joseconejerosp/
+  page-footer:
+    left: |
+      {{< fa brands creative-commons >}} 2023, José Daniel Conejeros {{< fa emoji face-glasses >}}
+    center: |
+      [Licencia](license.qmd) - ¿Me donas un [café {{< fa mug-hot >}}](https://www.google.cl)? <br> 
+      [![](images/fgch.png){fig-alt="https://galgos.donando.cl/" fig-align="center" width="25"}](https://galgos.donando.cl/) [Dona a la fundación Galgos Chile](https://galgos.donando.cl/)
+    right: |
+      Hecho con {{< fa brands r-project >}}, [Quarto](https://quarto.org) y [ChatGPT](https://openai.com/api/) <br>
+      Revisa el código fuente en {{< fa brands github >}} [GitHub](https://github.com/JDConejeros/JDC_website)  
 
+#bibliography: references.bib
+     
 format:
   html:
-    theme: cosmo
-    css: styles.css
+    theme:
+      dark: [darkly, custom-dark.scss]
+      light: [flatly, custom.scss]
     toc: true
+    code-copy: true
+    code-overflow: wrap
+    css: styles.css
+    include-after-body: js.html
+    grid:
+      sidebar-width: 250px
+      body-width: 1200px
+      margin-width: 300px
+
+freeze: true
 
 editor: visual
+
+
+
 
