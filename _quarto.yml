@@ -6,13 +6,13 @@ website:
   #reader-mode: true
   title: "José Daniel Conejeros"
   description: "JDC sitio web personal"
-  #image: 
+  image: "images/logo_web.png"
   favicon: "images/logo_web.png"
   # google-analytics: "G-FV9Z7SDZ0M"
   open-graph: true
   twitter-card:
     creator: "@Jose_Conejeros"
-  #site-url: https://quarto.org
+  site-url: https://jd-conejeros.com
   repo-url: https://github.com/JDConejeros/JDC_website
   repo-actions: [edit, issue]
   page-navigation: true
