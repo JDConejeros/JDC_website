@@ -2,6 +2,8 @@
 title: "Licencia de código abierto"
 ---
 
+{{< include _translate_button.qmd >}} 
+
 {{< include _link_out.qmd >}}
 
 El código fuente de esta página se publica bajo una licencia internacional [GNU GPL v2](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html). La sociedad necesita que la investigación y la ciencia sean gratuitas, abiertas y transparentes. La reproducibilidad, el intercambio libre de conocimiento y la igualdad de condiciones al reducir los costos son fundamentales para responder a los desafíos actuales.
@@ -21,5 +23,5 @@ Las siguientes licencias se aplican al texto, las imágenes, el código y los da
 :::
 
 ::: center
-{{< fa brands creative-commons >}} {{< fa brands creative-commons-by >}}  {{< fa brands creative-commons-sa >}}
+{{< fa brands creative-commons >}} {{< fa brands creative-commons-by >}} {{< fa brands creative-commons-sa >}}
 :::

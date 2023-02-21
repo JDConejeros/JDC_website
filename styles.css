@@ -6,3 +6,10 @@
 .center {
   text-align: center !important
 }
+
+@media (max-width: 767.98px) {
+  .navbar-collapse .navbar-nav.navbar-nav-scroll.ms-auto {
+    display: flex;
+    flex-direction: row;
+  }
+}
