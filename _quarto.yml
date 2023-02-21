@@ -18,12 +18,6 @@ website:
   page-navigation: true
   search:
     type: overlay
-    # algolia:
-    #   index-name: prod_QUARTO
-    #   application-id: ZPJB5I1QN7
-    #   search-only-api-key: 41be6c1e0a7fea4a51b107810facf577
-    #   analytics-events: true
-    #   show-logo: true
   navbar:
     background: none # dark
     #logo: "images/logo_jdc3.png" 
@@ -63,9 +57,6 @@ website:
       - icon: linkedin
         href: https://www.linkedin.com/in/joseconejerosp/
   page-footer:
-    # center: 
-    #   - text: "Licencia"
-    #   - href: licenses.qmd
     left: |
       {{< fa brands creative-commons >}} {{< fa brands creative-commons-by >}} 2023, José Daniel Conejeros Pavez - [Licencia](licenses.qmd) <br> 
       [¿Donas un {{< fa mug-hot >}}?](https://www.buymeacoffee.com/joconejerov) - [![](images/fgch.png){fig-alt="https://galgos.donando.cl/" fig-align="center" width="20"}](https://galgos.donando.cl/)[Dona a la fundación Galgos Chile](https://galgos.donando.cl/)
