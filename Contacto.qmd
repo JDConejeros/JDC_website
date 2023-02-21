@@ -2,3 +2,8 @@
 title: "Contacto"
 ---
 
+{{< include _link_out.qmd >}}
+
+Página en construcción.
+
+{{< include _coffe_button.qmd >}}

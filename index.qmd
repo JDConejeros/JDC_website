@@ -1,6 +1,6 @@
 ---
 title: "José Daniel Conejeros"
-subtitle: "MSc© en Sociología y Estadística"
+subtitle: "MSc© en Sociología y Estadística" 
 image: "images/JConejeros.jpg"
 about:
  template: jolla
@@ -8,12 +8,15 @@ about:
  image-shape: round
 ---
 
+{{< include _link_out.qmd >}} 
+
 {{< include _carousel_principal.qmd >}} 
+
 {{< include _animated_text.qmd >}}
 
 <br>
 
 ::: feature-bottom
-[Publicaciones](research.qmd){.btn .btn-secondary role="button"} [Blog](blog.qmd){.btn .btn-secondary role="button"} [Contacto](contacto.qmd){.btn .btn-secondary role="button"}
-[ES - CV](CV/CV_ES_acad_Ene2023.pdf){.btn .btn-secondary role="button"} [EN - CV](CV/CV_EN_acad_Ene2023.pdf){.btn .btn-secondary role="button"}
+[Publicaciones](research.qmd){.btn .btn-secondary role="button"} [Blog](blog.qmd){.btn .btn-secondary role="button"} [Contacto](contacto.qmd){.btn .btn-secondary role="button"} [CV (ESP)](CV/CV_ES_acad_Ene2023.pdf){.btn .btn-secondary role="button"} [CV (ENG)](CV/CV_EN_acad_Ene2023.pdf){.btn .btn-secondary role="button"}
 :::
+

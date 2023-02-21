@@ -2,4 +2,9 @@
 title: "Blog"
 ---
 
+{{< include _link_out.qmd >}} 
+
+{{< include _coffe_button.qmd >}}
+
+
 Página en construcción

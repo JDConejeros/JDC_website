@@ -38,5 +38,4 @@
   <span class="cd-words-wrapper"></span>
 </div>
 
-
 ```
