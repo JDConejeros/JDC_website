@@ -5,10 +5,10 @@ website:
   #cookie-consent: true
   #reader-mode: true
   title: "José Daniel Conejeros"
-  description: "JDC sitio web personal"
+  description: "José daniel Conejeros sitio web personal"
   image: "images/logo_web.png"
   favicon: "images/logo_web.png"
-  # google-analytics: "G-FV9Z7SDZ0M"
+  google-analytics: "G-QLC53YN4HV"
   open-graph: true
   twitter-card:
     creator: "@Jose_Conejeros"
