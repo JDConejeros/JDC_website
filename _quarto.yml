@@ -58,8 +58,8 @@ website:
         href: https://www.linkedin.com/in/joseconejerosp/
   page-footer:
     left: |
-      {{< fa brands creative-commons >}} {{< fa brands creative-commons-by >}} 2023, José Daniel Conejeros Pavez - [Licencia](licenses.qmd) <br> 
-      [¿Donas un {{< fa mug-hot >}}?](https://www.buymeacoffee.com/joconejerov) - [![](images/fgch.png){fig-alt="https://galgos.donando.cl/" fig-align="center" width="20"}](https://galgos.donando.cl/)[Dona a la fundación Galgos Chile](https://galgos.donando.cl/)
+      {{< fa brands creative-commons >}} {{< fa brands creative-commons-by >}} 2023, José Daniel Conejeros Pavez | [Licencia](licenses.qmd) <br> 
+      [¿Donas un {{< fa mug-hot >}}?](https://www.buymeacoffee.com/joconejerov) | [![](images/fgch.png){fig-alt="https://galgos.donando.cl/" fig-align="center" width="20"}](https://galgos.donando.cl/)[Dona a la fundación Galgos Chile](https://galgos.donando.cl/)
     right: |
       Hecho con {{< fa brands r-project >}}, [Quarto](https://quarto.org) y [ChatGPT](https://openai.com/api/) <br>
       Revisa el código fuente en {{< fa brands github >}} [GitHub](https://github.com/JDConejeros/JDC_website)  
