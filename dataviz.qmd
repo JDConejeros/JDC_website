@@ -8,4 +8,6 @@ title: "DataViz"
 
 Página en construcción.
 
+{{< include animation/_animationviz.qmd >}}
+
 {{< include _coffe_button.qmd >}}
