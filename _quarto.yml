@@ -43,9 +43,9 @@ website:
       - text: "{{< fa envelope >}}"
         href: mailto:jdconejeros@uc.cl
       - text: "{{< fa brands orcid >}}"
-        href: https://www.researchgate.net/
+        href: https://orcid.org/0000-0003-3402-4361
       - text: "{{< fa brands researchgate >}}"
-        href: https://www.researchgate.net/
+        href: https://www.researchgate.net/profile/Jose-Conejeros
       - icon: slack
         href: https://join.slack.com/t/uc-6q16134/shared_invite/zt-1pf6qv46v-T6RsbvIsbwQAOoQ1rI3B7g
       - icon: github

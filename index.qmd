@@ -19,5 +19,5 @@ about:
 <br>
 
 ::: feature-bottom
-[Publicaciones](research.qmd){.btn .btn-secondary role="button"} [Blog](blog.qmd){.btn .btn-secondary role="button"} [Contacto](contacto.qmd){.btn .btn-secondary role="button"} [CV (ESP)](CV/CV_ES_acad_Ene2023.pdf){.btn .btn-secondary role="button"} [CV (ENG)](CV/CV_EN_acad_Ene2023.pdf){.btn .btn-secondary role="button"}
+[Publicaciones](research.qmd){.btn .btn-secondary role="button"} [Blog](blog.qmd){.btn .btn-secondary role="button"} [Contacto](contacto.qmd){.btn .btn-secondary role="button"} [CV (ESP)](CV/CV_Spanish_acad.pdf){.btn .btn-secondary role="button"} [CV (ENG)](CV/CV_English_acad.pdf){.btn .btn-secondary role="button"}
 :::
