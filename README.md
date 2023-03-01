@@ -1,4 +1,4 @@
-![](images/logo_web.png){align="right" width="75" height="71"}
+<img src="images/logo_web.png" align="right" width="75" height="71"/>
 
 ## Personal website
 
