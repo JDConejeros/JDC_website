@@ -1,0 +1,13 @@
+---
+title: "Investigación"
+---
+
+{{< include ../html/_translate_button.qmd >}}
+
+{{< include ../html/_link_out.qmd >}}
+
+Página en construcción.
+
+{{< include ../animation/_animationresearch.qmd >}}
+
+{{< include ../html/_coffe_button.qmd >}}

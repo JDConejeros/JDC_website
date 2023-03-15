@@ -1,0 +1,11 @@
+---
+title: "Contacto"
+---
+
+{{< include ../html/_translate_button.qmd >}}
+
+{{< include ../html/_link_out.qmd >}}
+
+Página en construcción.
+
+{{< include ../html/_coffe_button.qmd >}}

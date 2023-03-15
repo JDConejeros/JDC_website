@@ -1,44 +1,63 @@
 project:
   type: website
 
+preview: 
+    port: 5555
+    browser: true
+    watch-inputs: true
+    navigate: true
+
+lang: es
+
 website:
   #cookie-consent: true
-  #reader-mode: true
+  #reader-mode: false
   title: "José Daniel Conejeros"
   description: "José daniel Conejeros sitio web personal"
-  image: "images/logo_web.png"
-  favicon: "images/logo_web.png"
+  image: "/images/logo_web.png"
+  favicon: "/images/logo_web.png"
+  
   google-analytics: "G-QLC53YN4HV"
-  open-graph: true
+  
   twitter-card:
     creator: "@Jose_Conejeros"
+    site: "@Jose_Conejeros"
+    card-style: summary_large_image
+    image: "/images/logo_web.png"
+  
+  open-graph: 
+    image: "/images/logo_web.png"
+    locale: es
+  
   site-url: https://jd-conejeros.com
   repo-url: https://github.com/JDConejeros/JDC_website
   repo-actions: [edit, issue]
   page-navigation: true
+  
   search:
     type: overlay
+  
   navbar:
-    background: none # dark
+    background: none
     #logo: "images/logo_jdc3.png" 
     #logo-alt: "Logo JDC"
     title: false
     search: true
     collapse-below: "lg"
-    #pinned: false
+    pinned: false
     left:
       - text: "¡BOOM! {{< fa meteor >}}"
         href: index.qmd
       - text: "{{< fa magnifying-glass-plus >}} Investigación"
-        href: research.qmd
+        href: research/index.qmd
       - text: "{{< fa paperclip >}} Docencia"
-        href: teach.qmd
+        href: teaching/index.qmd
       - text: "{{< fa cubes >}} Proyectos"
-        href: projects.qmd
+        href: projects/index.qmd
       - text: "{{< fa layer-group >}} DataViz"
-        href: dataviz.qmd
+        href: dataviz/index.qmd
       - text: "{{< fa code >}}  Blog"
-        href: blog.qmd
+        href: blog/index.qmd
     right:
       - text: "{{< fa envelope >}}"
         href: mailto:jdconejeros@uc.cl
@@ -58,14 +77,14 @@ website:
         href: https://www.linkedin.com/in/joseconejerosp/
   page-footer:
     left: |
-      {{< fa brands creative-commons >}} {{< fa brands creative-commons-by >}} 2023, José Daniel Conejeros Pavez | [Licencia](licenses.qmd) <br> 
-      [¿Donas un {{< fa mug-hot >}}?](https://www.buymeacoffee.com/joconejerov) | [![](images/fgch.png){fig-alt="https://galgos.donando.cl/" fig-align="center" width="20"}](https://galgos.donando.cl/)[Dona a la fundación Galgos Chile](https://galgos.donando.cl/)
+      <span class="faux-block">{{< fa brands creative-commons >}} {{< fa brands creative-commons-by >}} 2023, José Daniel Conejeros Pavez | [Licencia](licenses.qmd) </span> <br>
+      <span class="faux-block">[¿Donas un {{< fa mug-hot >}}?](https://www.buymeacoffee.com/joconejerov) | [![](../../../images/fgch.png){fig-alt="https://galgos.donando.cl/" fig-align="center" width="20"}](https://galgos.donando.cl/)[Dona a la fundación Galgos Chile](https://galgos.donando.cl/) </span>
     right: |
-      Hecho con {{< fa brands r-project >}}, [Quarto](https://quarto.org) y [ChatGPT](https://openai.com/api/) <br>
-      Revisa el código fuente en {{< fa brands github >}} [GitHub](https://github.com/JDConejeros/JDC_website)  
+      <span class="faux-block">Hecho con {{< fa brands r-project >}}, [Quarto](https://quarto.org) y [ChatGPT](https://openai.com/api/) </span> <br>
+      <span class="faux-block">Revisa el código fuente en {{< fa brands github >}} [GitHub](https://github.com/JDConejeros/JDC_website) </span> 
 
 #bibliography: references.bib
-     
+
 format:
   html:
     theme:
@@ -73,13 +92,18 @@ format:
       light: [flatly, custom.scss]
     toc: true
     code-copy: true
+    code-link: true
+    anchor-sections: true
     code-overflow: wrap
+    fig-cap-location: margin
+    reference-location: margin
+    footnotes-hover: true
+    highlight-style: monokai
     css: styles.css
-    include-after-body: js.html
     grid:
       sidebar-width: 250px
-      body-width: 1200px
-      margin-width: 300px
+      body-width: 1000px
+      margin-width: 250px
 
 execute:
   freeze: auto

@@ -1,0 +1,78 @@
+---
+title: "¿Por qué crear una página web?"
+date: 2023-03-01
+description: "Por qué elegí crear mi página web en Quarto y cómo esto se relaciona con la ciencia abierta."
+categories:
+  - Web
+  - Quarto
+  - Ciencia Abierta
+  - Español
+image: "img/im1.jpg"
+twitter: "@Jose_Conejeros"
+draft: false
+#page-layout: full
+reference-location: margin
+citation-location: margin
+include-after-body: 
+  - ../../../html/footer_post.html
+---
+
+Construir un espacio en el que pudiera compartir mis reflexiones, análisis y conocimientos sobre el mundo, ha sido un anhelo que ha rondado mi cabeza desde hace un buen tiempo. Aunque, definir claramente el por qué de hacerlo, el qué y el cómo lo haría, y para quién lo haría, no fue sencillo. A continuación quiero explicar lo que me llevo a diseñar esta página web y el rol que han jugado mis reflexiones en torno a la construcción del conocimiento.
+
+## Las tres preguntas
+
+Si tuviera que explicar las motivaciones para hacer esta página web creo que al inicio partieron con un ***¿Por qué no hacerlo?*** y el clásico ***Porque puedo***. Sin embargo, con el pasar de los días fui teniendo reflexiones más profundas acerca de este proyecto y llegue a la conclusión de que era necesario re-conectarme con el mundo nuevamente. El período del estallido social ocurrido en Chile y la posterior pandemia del COVID-19 cambio nuestra capacidad de conectarnos con otras personas.
+
+Cada día hay más personas interesadas en la programación, análisis y visualización de datos y pienso que construir un espacio en **español** permite conectar esos intereses y construir una comunidad.
+
+Las clases y lecturas del profesor Castillo me inspiró a desarrollar esta faceta.
+
+::: column-margin
+Puedes encontrar el curso del profesor Castillo en <https://jc-castillo.com/docencia/ciencia-social-abierta/>
+:::
+
+Finalmente, de todas las opciones disponibles pensé que la mejor opción sería crear un sitio-web porque a) puedo crear un entorno propio que no dependa de otras plataformas para operar, b) el contenido que puedo crear es versatil y para distintos públicos, c) al largo plazo es más económico y d) puedo conectarme con investigadores, interesados en el área y público general en latinoamérica y todo el mundo.
+
+## ¿Un sitio web BBB?
+
+La idea de construir un sitio web desde cero era algo que me intimidaba, especialmente porque no tenía conocimientos técnicos avanzados en diseño web. Fue entonces cuando descubrí Quarto y pude utilizar mis habilidades y conocimientos en R. Quarto es una herramienta para la creación de documentos, especialmente enfocada en la creación de documentos técnicos y académicos. Se basa en Markdown, un lenguaje de marcado sencillo que permite escribir textos enriquecidos sin necesidad de utilizar código HTML o CSS. Gracias a su sencillez y flexibilidad, Quarto permite crear documentos con un formato profesional, independientemente del nivel de conocimientos técnicos del usuario. A fin de cuentas, Quarto es la nueva generación de R-markdown, mucho más fácil, versatil y, sobretodo, útil para la comunicación científica
+
+::: column-margin
+Puedes obtener más información de `Quarto` en <https://quarto.org/>
+:::
+
+Quarto me pareció la herramienta perfecta para mis necesidades. Me permitió crear una página web con un diseño limpio y profesional. Gracias a la sencillez de Quarto, pude enfocarme en el contenido de mi sitio web, sin tener que preocuparme (*tanto*) por el código HTML o CSS. De hecho, fue una experiencia mucho más amable a la hora de aprender a utilizar estas herramientas. En comparación de otras herramientas web, Quarto cuenta con tres ventajas:
+
+1.  **Reproducibilidad:** los creadores buscan generar herramientas de código abierto. Su filosofía se basa en que el software libre y la ciencia abierta facilitan la reproducibilidad, el intercambio generalizado de conocimientos, y la igualdad de condiciones para las personas al eliminar las barreras de entrada.
+
+2.  **Versatilidad y extensiones:** No solo puedo construir páginas web, sino que blogs, presentaciones, libros, paneles interactivos, utilizando lenguajes de programación como `R`, `Python` o `Julia`. Además, permite el uso de extensiones en `HTML`, `JavaScript`, etc., lo que entrega mayor poder y dinámica a tus documentos. Puedes encontrar más sobre esto aquí: <https://quarto.org/docs/gallery/>
+
+3.  **Documentación:** Existen guía y una documentación excelente. Puedes encontrarlo acá: <https://quarto.org/docs/guide/>
+
+4.  **Comunidad:** Hay una amplia comunidad de desarrolladores y usuarios de esta herramienta lo que permite conectarse con otras personas y aprender más sobre código. Puedes revisar aquí: <https://github.com/quarto-dev/quarto-cli/discussions>
+
+Además, Quarto me permitió crear una página web que se adapta perfectamente a cualquier dispositivo, ya sea un ordenador de escritorio, una tablet o un teléfono móvil (responsividad). ***Termino siendo una herramienta Buena, Bonita y Barata***.
+
+## ¿Ciencia Abierta?
+
+Lo que más me gustó de Quarto es que se basa en la filosofía de la ciencia abierta. La ciencia abierta es un movimiento que busca hacer que la investigación científica sea más accesible, transparente y colaborativa. En Quarto, esto se traduce en la posibilidad de crear documentos técnicos y académicos de una manera más accesible y colaborativa. Gracias a Quarto, los documentos creados pueden ser compartidos fácilmente con otras personas, lo que hace que la investigación y la colaboración sean más fáciles.
+
+::: column-margin
+Si te interesa la ciencia abierta puedes ver el siguiente enlace
+:::
+
+En mi caso, la página web que creé con Quarto me permitió compartir mis ideas y conocimientos con una audiencia más amplia. Al compartir mis conocimientos y experiencias, espero inspirar a otros a seguir sus propias pasiones y a contribuir a la construcción de un mundo más abierto y colaborativo.
+
+Además de la facilidad de uso y la filosofía de la ciencia abierta, hay otras ventajas de utilizar Quarto para crear una página web. En particular, Quarto es una herramienta altamente flexible y personalizable. Los usuarios pueden crear documentos personalizados utilizando una amplia variedad de plantillas y complementos, lo que les permite adaptar su página web a sus necesidades específicas.
+
+Otra gran ventaja de Quarto es que es de código abierto, lo que significa que su código fuente está disponible para todos. Esto significa que cualquier persona puede contribuir a su desarrollo, mejorando la herramienta y asegurando su accesibilidad y usabilidad a largo plazo. Además, el hecho de que Quarto sea de código abierto también significa que los usuarios pueden adaptar la herramienta a sus necesidades específicas, creando sus propios complementos y extensiones para satisfacer sus necesidades particulares.
+
+Pero quizás la mayor ventaja de Quarto es que permite crear contenido altamente estructurado y organizado. Esto es particularmente útil para aquellos que quieren crear documentos técnicos o académicos, ya que estos a menudo requieren una estructura clara y organizada para ser efectivos. Con Quarto, los usuarios pueden crear fácilmente secciones y subsecciones, agregar notas al margen y crear bibliografías, lo que hace que la organización de la información sea más sencilla.
+
+En resumen, Quarto es una herramienta fantástica para aquellos que quieren crear su propia página web de manera sencilla y accesible. Su enfoque en la ciencia abierta significa que es una herramienta altamente colaborativa y flexible, lo que la hace ideal para aquellos que quieren compartir sus ideas y conocimientos con el mundo. Además, Quarto es altamente personalizable y adaptable, lo que significa que los usuarios pueden crear documentos a medida que se ajusten a sus necesidades específicas. En definitiva, Quarto es una herramienta que recomiendo encarecidamente para aquellos que buscan una manera fácil y efectiva de crear su propia página web.
+
+¡Te invito a intentarlo! Esto no se trata solo construir un sitio web, sino de aventurarse a emprender nuevos proyectos, reflexionar sobre tus objetivos, conocer nuevas personas, aprender sobre tus límites y frustraciones, y creer que puedes hacerlo.
+
+::: center
+**¡Suerte en tu proyecto!**
+:::

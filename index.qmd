@@ -4,20 +4,19 @@ subtitle: "MSc© en Sociología y Estadística"
 image: "images/JConejeros.jpg"
 about:
  template: jolla
- image-width: 15em
+ image-width: 12.5em
  image-shape: round
+include-before-body:
+  - html/translate_button.html
+  - html/link_out.html
+  - html/carousel_principal.html
+  - html/animated_text.html
 ---
 
-{{< include _translate_button.qmd >}}
-
-{{< include _link_out.qmd >}}
-
-{{< include _carousel_principal.qmd >}}
-
-{{< include _animated_text.qmd >}}
+<!-- {{< include ./button/_carousel_principal.qmd >}} -->
 
 <br>
 
 ::: feature-bottom
-[Publicaciones](research.qmd){.btn .btn-secondary role="button"} [Blog](blog.qmd){.btn .btn-secondary role="button"} [Contacto](contacto.qmd){.btn .btn-secondary role="button"} [CV (ESP)](CV/CV_Spanish_acad.pdf){.btn .btn-secondary role="button"} [CV (ENG)](CV/CV_English_acad.pdf){.btn .btn-secondary role="button"}
+[Publicaciones](research/index.qmd){.btn .btn-secondary role="button"} [Blog](blog/index.qmd){.btn .btn-secondary role="button"} [Contacto](contacto.qmd){.btn .btn-secondary role="button"} [CV (ESP)](CV/CV_Spanish_acad.pdf){.btn .btn-secondary role="button"} [CV (ENG)](CV/CV_English_acad.pdf){.btn .btn-secondary role="button"}
 :::

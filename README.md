@@ -1,6 +1,6 @@
 <img src="images/logo_web.png" align="right" width="75" height="71"/>
 
-## Personal website
+## José Daniel personal website
 
 <!-- badges: start -->
 
@@ -10,4 +10,10 @@
 
 ------------------------------------------------------------------------
 
-Código fuente para mi [personal website](https://jd-conejeros.com), construido en [quarto](https://quarto.org/) and alojado en [netlify](https://www.netlify.com/).
+Código fuente para mi [personal website](https://jd-conejeros.com) 💡💡💡 
+
+⚒️ Construido en [quarto](https://quarto.org/) 
+
+🗨️ Comentarios gracias a [giscus](https://giscus.app/)
+
+🚀 Alojado en [netlify](https://www.netlify.com/).

@@ -1,0 +1,30 @@
+---
+title: "Blog"
+description: "Análisis, código y reflexiones."
+author: ""
+listing:
+  - id: posts_2023
+    contents: "/2023/**/index.qmd"
+    sort: "date desc"
+    type: default #grid table
+    table-hover: true
+    categories: true
+    sort-ui: true
+    filter-ui: true
+    feed: true
+page-layout: full
+toc-title: Año
+toc-location: right
+date-format: "DD MMMM, YYYY"
+code-tools: true
+feed: true
+search: true
+comments: false
+include-before-body: 
+  - ../html/slim_subscribe.html
+---
+
+## 2023
+
+::: {#posts_2023}
+:::

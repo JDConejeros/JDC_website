@@ -1,0 +1,60 @@
+# Date format
+date-format: "DD MMMM, YYYY"
+
+# Enable banner style title blocks
+# "#00bc8c"
+title-block-banner: "#00916c"
+title-block-banner-color: body
+
+# Add blog-post class to the banner header area
+format: 
+  html:
+    code-tools: true
+    code-overflow: wrap
+    code-line-numbers: true
+    code-fold: false
+    code-copy: true
+    code-block-border-left: true
+    df-print: paged
+    #comments:
+      # giscus:
+      #   repo: "JDConejeros/JDC_website"
+      #   category: "Announcements"
+      #   category-id: "DIC_kwDOI-2iss4CUrTD"
+      #   mapping: pathname
+      #   theme: "dark_dimmed" # "transparent_dark"
+      #   language: es
+    quarto-template-params:
+      banner-header-class: "blog-post"
+
+# Default for table of contents
+toc: true
+toc-title: Contenidos
+toc-location: left
+
+search: true
+
+freeze: true
+
+# Default knitr options
+execute:
+  echo: true
+  message: false
+  warning: false
+
+# Default author
+author:
+  - name: José Daniel Conejeros
+    url: https://github.com/JDConejeros
+    orcid: 0000-0003-3402-4361
+    email: jdconejeros@uc.cl
+    # affiliation: 
+    #   - name: Escuela de Gobierno UC
+    #   - city: Chile
+    
+include-before-body:
+  - ../html/translate_button.html
+  - ../html/link_out.html
+  
+
+
