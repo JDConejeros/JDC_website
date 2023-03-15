@@ -3,18 +3,13 @@ title: "R y RStudio"
 date: 2023-03-15
 description: "Guía práctica para la instalación de R y RStudio en Windows y macOS"
 categories:
-  - R
+  - Rw
   - RStudio
   - Instalación
   - Español
 image: "img/rstudio.png"
 twitter: "@Jose_Conejeros"
 draft: false
-twitter-card:
-  creator: "@Jose_Conejeros"
-  site: "@Jose_Conejeros"
-  card-style: summary_large_image
-  image: "/images/rstudio.png"
 #page-layout: full
 reference-location: margin
 citation-location: margin
