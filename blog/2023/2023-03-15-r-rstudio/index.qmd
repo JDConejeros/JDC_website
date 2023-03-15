@@ -10,6 +10,11 @@ categories:
 image: "img/rstudio.png"
 twitter: "@Jose_Conejeros"
 draft: false
+twitter-card:
+  creator: "@Jose_Conejeros"
+  site: "@Jose_Conejeros"
+  card-style: summary_large_image
+  image: "/images/rstudio.png"
 #page-layout: full
 reference-location: margin
 citation-location: margin
@@ -57,98 +62,85 @@ Necesitarás instalar tanto R como RStudio. Puedes acceder a ambos de forma dire
 
 A continuación veremos como instalar R y RStudio en Windows 10.
 
-{{< video https://www.youtube.com/embed/35UBaDNR8u4
-    title="Instalación para Windows 64 bit"
-    start="1" >}}
+{{< video https://www.youtube.com/embed/35UBaDNR8u4 title="Instalación para Windows 64 bit" start="1" >}}
 
-::: {.callout-note}
+::: callout-note
 ## Nota
 
-En Windows debes tener algunas precauciones a la hora de instalar: 
+En Windows debes tener algunas precauciones a la hora de instalar:
 
-- Verifica que tu computador sea de 32 o 64 bit
-- Inicia R y RStudio con permisos de administrador
+-   Verifica que tu computador sea de 32 o 64 bit
+-   Inicia R y RStudio con permisos de administrador
 
 En ocasiones se pueden presentar problemas al descargar librerías debido a permisos de acceso. Puedes buscar en internet posibles soluciones: <https://stackoverflow.com/>
-
 :::
-
 
 ## Instalación en Mac OS
 
-A continuación veremos como instalar R y RStudio en macOS Big Sur. 
+A continuación veremos como instalar R y RStudio en macOS Big Sur.
 
-{{< video https://www.youtube.com/embed/VIE4fBH576w
-    title="Instalación para Windows 64 bit"
-    start="1" >}}
+{{< video https://www.youtube.com/embed/VIE4fBH576w title="Instalación para Windows 64 bit" start="1" >}}
 
-::: {.callout-note}
+::: callout-note
 ## Nota
 
 En macOS debes verificar que tu computador tenga procesador M1 o Intel
-
 :::
-
 
 ## Trabaja en la nube con RStudio Cloud
 
-RStudio Cloud o Posit Cloud es un servicio web que permite el trabajo de RStudio en la nube. Tiene la ventaja de que se trabaja directamente desde el navegador web sin necesidad de descargar e instalar softwares, complementos y librerías en tu computador. Todo el trabajo es remoto en los servidores de Posit. 
+RStudio Cloud o Posit Cloud es un servicio web que permite el trabajo de RStudio en la nube. Tiene la ventaja de que se trabaja directamente desde el navegador web sin necesidad de descargar e instalar softwares, complementos y librerías en tu computador. Todo el trabajo es remoto en los servidores de Posit.
 
-Para acceder a estos servicios **debes crear una cuenta en**: <https://posit.cloud/>. A continuación te mostraremos como acceder.  
+Para acceder a estos servicios **debes crear una cuenta en**: <https://posit.cloud/>. A continuación te mostraremos como acceder.
 
-{{< video https://www.youtube.com/embed/wPk-3tF0oco
-    title="Conexión RStudio Cloud"
-    start="1" >}}
+{{< video https://www.youtube.com/embed/wPk-3tF0oco title="Conexión RStudio Cloud" start="1" >}}
 
-::: {.callout-note}
+::: callout-note
 ## Nota
 
-A pesar de que RStudio Cloud es una buena herramienta de trabajo en la nube, tiene sus limitaciones: 
+A pesar de que RStudio Cloud es una buena herramienta de trabajo en la nube, tiene sus limitaciones:
 
-- Límite de hasta 50 proyectos
-- Trabajo colaborativo con 1 persona o 1 proyecto
-- Solo 1GB de memoria RAM
-- Trabajo en 1 CPU
-- Límite de conexión de 1 hora 
-- Ejecución de código hasta 25 horas al mes
+-   Límite de hasta 50 proyectos
+-   Trabajo colaborativo con 1 persona o 1 proyecto
+-   Solo 1GB de memoria RAM
+-   Trabajo en 1 CPU
+-   Límite de conexión de 1 hora
+-   Ejecución de código hasta 25 horas al mes
 
 Los planes de pago ofrecen ampliar estas características: <https://posit.cloud/plans>
 :::
 
-
-
-----
+------------------------------------------------------------------------
 
 ## En resumen
 
-1. Ingresa al `CRAN` de `R` para descargar en estos links (también puedes googlear *download R*):
+1.  Ingresa al `CRAN` de `R` para descargar en estos links (también puedes googlear *download R*):
 
-  + `MAC OS X`: <https://cran.r-project.org/bin/macosx/>
-  + `Windows` (*"install R for the first time"*): <https://cran.r-project.org/>
+-   `MAC OS X`: <https://cran.r-project.org/bin/macosx/>
+-   `Windows` (*"install R for the first time"*): <https://cran.r-project.org/>
 
-::: {.callout-important}
+::: callout-important
 ## Ojo
 
-- Verifica que tu CPU sea de 32 o 64 bits. 
-- Para los usuarios de MAC verificar si trabajan con un chip M1 o con un procesador INTEL (versiones de MAC anteriores a Noviembre 2020)
+-   Verifica que tu CPU sea de 32 o 64 bits.
+-   Para los usuarios de MAC verificar si trabajan con un chip M1 o con un procesador INTEL (versiones de MAC anteriores a Noviembre 2020)
 :::
 
-2. Ingresa a la página de `RStudio` para descargar (utilizar el recomendado): <https://posit.co/download/rstudio-desktop/>
+2.  Ingresa a la página de `RStudio` para descargar (utilizar el recomendado): <https://posit.co/download/rstudio-desktop/>
 
-3. Sigue los pasos de instalación (revisa los videos anteriores).
+3.  Sigue los pasos de instalación (revisa los videos anteriores).
 
-::: {.callout-note}
+::: callout-note
 ## Errores en el proceso
 
 Si te encuentras con algún error durante el proceso, lo más probable es que sea por alguna configuración de tu sistema operativo. En ese caso, lo mejor es copiar el error, pegar en [Google](https://www.google.com/) o [Stack overflow](https://stackoverflow.com/) y revisar posibles soluciones (principalmente en foros).
 :::
 
-Te recomendamos descargar e instalar R y RStudio, de esa manera puedes ir conociendo tu computador y los recursos que tienes disponibles para tus proyectos de análisis e investigación. Ahora estás listo/a para trabajar. Intenta generar un Script y escribir: 
+Te recomendamos descargar e instalar R y RStudio, de esa manera puedes ir conociendo tu computador y los recursos que tienes disponibles para tus proyectos de análisis e investigación. Ahora estás listo/a para trabajar. Intenta generar un Script y escribir:
 
 ```{r}
 print("Hola R")
 ```
-
 
 Deja tus dudas o problemas en la caja de comentarios.
 
