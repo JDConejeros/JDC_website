@@ -9,7 +9,7 @@ categories:
   - Español
 image: "img/im1.jpg"
 twitter: "@Jose_Conejeros"
-draft: false
+draft: true
 #page-layout: full
 reference-location: margin
 citation-location: margin
