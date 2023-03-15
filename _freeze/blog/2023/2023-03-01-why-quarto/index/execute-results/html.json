@@ -1,0 +1,18 @@
+{
+  "hash": "5b90118aa9ce99045315c70ab8e40e90",
+  "result": {
+    "markdown": "---\ntitle: \"¿Por qué crear una página web?\"\ndate: 2023-03-01\ndescription: \"Texto descriptivo bla bla\"\ncategories:\n  - Web\n  - Quarto\n  - Ciencia Abierta\n  - Español\nimage: \"img/im1.jpg\"\ndraft: false\npage-layout: full\ninclude-after-body: \n  - ../../../html/coffe_button.html\n---\n\n\n\n## Otra prueba\n\n\nTexto de post.Texto de post.Texto de post.Texto de post.Texto de post.Texto de post.Texto de post.Texto de post.Texto de post.Texto de post.Texto de post.Texto de post.Texto de post.Texto de post.Texto de post.Texto de post.Texto de post.Texto de post.Texto de post.Texto de post.Texto de post.Texto de post.Texto de post.Texto de post.Texto de post.Texto de post.Texto de post.Texto de post.Texto de post.Texto de post.Texto de post.\n\n## Subtitulo\n\n$\\alpha=0.01$\n\nImagen de prueba. Ajustar\n\n![texto](img/im1.jpg){.border .rounded width=\"70%\" fig-alt=\"Citation reference hovering popup\"}\n\n## Subtitulo 2\n\nTexto de post.Texto de post.Texto de post.Texto de post.Texto de post.Texto de post.Texto de post.Texto de post.Texto de post.Texto de post.Texto de post.Texto de post.Texto de post.Texto de post.Texto de post.Texto de post.Texto de post.Texto de post.Texto de post.Texto de post.Texto de post.Texto de post.Texto de post.Texto de post.Texto de post.Texto de post.Texto de post.Texto de post.Texto de post.Texto de post.Texto de post.\n\nprueba 1. Otro cambio para verificar\n\n\n::: {.cell}\n\n```{.r .cell-code}\nresult <- c(1,3,4)\nprint(result+1)\n```\n\n::: {.cell-output .cell-output-stdout}\n```\n[1] 2 4 5\n```\n:::\n:::\n\n\n## Sutitulo 3\n\nTexto de post.Texto de post.Texto de post.Texto de post.Texto de post.Texto de post.Texto de post.Texto de post.Texto de post.Texto de post.Texto de post.Texto de post.Texto de post.Texto de post.Texto de post.Texto de post.Texto de post.Texto de post.Texto de post.Texto de post.Texto de post.Texto de post.Texto de post.Texto de post.Texto de post.Texto de post.Texto de post.Texto de post.Texto de post.Texto de post.Texto de post.\n\n\n---\n\n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {
+      "include-in-header": [
+        "<link href=\"../../../site_libs/pagedtable-1.1/css/pagedtable.css\" rel=\"stylesheet\" />\n<script src=\"../../../site_libs/pagedtable-1.1/js/pagedtable.js\"></script>\n"
+      ]
+    },
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
