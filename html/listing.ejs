@@ -1,0 +1,93 @@
+```{=html}
+<style>
+    .course-entry {
+        display: flex;
+        align-items: center; /* Alinear verticalmente los elementos */
+    }
+
+    .course-entry .logo {
+        margin-right: 10px; /* Espacio entre la imagen y el texto */
+    }
+
+    .course-entry .body {
+        margin-left: 20px; /* Espacio doble entre el texto y la imagen */
+    }
+
+    .course-entry .course-details .course-number::before {
+        display: none; /* Ocultar el punto antes de "VERSIÓN" */
+    }
+
+    .course-entry .course-title {
+        font-size: 18px; /* Tamaño de letra un poco más grande */
+        color: #fff; /* Color del texto del nombre del curso */
+    }
+
+    .course-entry .course-title a {
+        color: #fff; /* Color de texto del enlace */
+        text-decoration: none; /* Sin subrayado */
+    }
+
+    .course-entry .course-semesters button {
+        background-color: #00916c; /* Color de fondo del botón */
+        color: #fff; /* Color de texto del botón */
+        border: none; /* Sin borde */
+        border-radius: 4px; /* Bordes redondeados */
+        padding: 5px 10px; /* Espacio interno */
+        margin-right: 10px; /* Espacio entre botones */
+        border-width: 2px; /* Ancho del borde */
+        border-style: solid; /* Estilo del borde */
+        border-color: #00916c; /* Color del borde */
+    }
+
+    .course-entry .course-semesters button a {
+        color: #fff; /* Color de texto del enlace */
+        text-decoration: none; /* Sin subrayado */
+    }
+
+    .course-entry .course-semesters button:focus {
+        outline: none; /* Eliminar el contorno al hacer foco en el botón */
+    }
+</style>
+
+
+<div class="teaching">
+    <% for (const course of items) { %>
+    <div class="course-entry">
+        <div class="logo">
+            <% if (course.url) { %>
+            <a href="<%= course.url %>" target="_blank"><img src="<%= course.logo %>" alt="<%= course.title %>" title="<%= course.title %>" /></a>
+            <% } else { %>
+            <img src="<%= course.logo %>" alt="<%= course.title %>" title="<%= course.title %>" />
+            <% } %>
+        </div>
+        <div class="body">
+            <p class="course-title" style="font-size: 18px; color: #fff;">
+                <% if (course.url) { %>
+                <a href="<%= course.url %>" target="_blank"><%= course.title %></a> 
+                <% } else { %>
+                <%= course.title %> 
+                <% } %>
+            </p>
+            <p class="course-details">
+                <span class="course-number"><%= course.number %></span> | 
+                <span class="course-university"><%= course.university %></span>
+                <% if (course.role) { %>
+                | <span class="course-role"><%= course.role %></span>
+                <% } %>
+            </p>
+            <p class="course-description"><%= course.description %></p>
+
+            <div class="course-semesters">
+                <% for (const semester of course.semester) { %>
+                <% if (semester.url) { %>
+                <button style="background-color: #00916c;"><a href="<%= semester.url %>"><i class="fa-solid fa-building-columns"></i> <%= semester.name %></a></button>
+                <% } else { %> 
+                <button style="background-color: #00916c;"><span class="no-link"><i class="fa-solid fa-building-columns"></i> <%= semester.name %></span></button>
+                <% } %>
+                <% } %>
+            </div>
+        </div>
+    </div>
+    <% } %>
+</div>
+```

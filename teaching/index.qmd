@@ -1,13 +1,24 @@
 ---
 title: "Docencia"
+listing:
+  - id: class_23
+    contents: year_2023.yml
+    sort: "date desc"
+    template: ../html/listing.ejs
+title-block-banner: "#00916c"
+page-layout: full
+toc-title: Año académico
+toc-location: right
+date-format: "DD MMMM, YYYY"
+code-tools: true
+feed: true
+search: true
+comments: false
 ---
 
-{{< include ../html/_translate_button.qmd >}}
+## 2023
 
-{{< include ../html/_link_out.qmd >}}
+:::{#class_23}
+:::
 
-Página en construcción.
 
-{{< include ../animation/_animationteach.qmd >}}
-
-{{< include ../html/_coffe_button.qmd >}}
