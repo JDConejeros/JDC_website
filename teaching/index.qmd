@@ -18,7 +18,5 @@ comments: false
 
 ## 2023
 
-:::{#class_23}
+::: {#class_23}
 :::
-
-
